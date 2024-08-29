@@ -8,6 +8,7 @@ on:
       - '**.yaml'
     branches:
       - main
+      - livecode
 jobs:
   setup-and-test:
     runs-on: ubuntu-latest

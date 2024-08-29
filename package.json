@@ -6,7 +6,8 @@
   "scripts": {
     "web": "npx browser-sync './' ui/",
     "cli": "node ui/index.js",
-    "test:dev": "node --inspect --watch --test ./test/*.test.js"
+    "test": "node  --experimental-test-coverage --test test/",
+    "test:dev": "node --inspect --watch --test test/"
   },
   "keywords": [],
   "author": "erickwendel",
