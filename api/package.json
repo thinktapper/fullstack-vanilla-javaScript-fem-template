@@ -1,0 +1,17 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --inspect --watch src/index.js",
+    "test": "echo \"Sorry, I'll implement it later :) \""
+  },
+  "keywords": [],
+  "author": "thinktapper",
+  "license": "ISC",
+  "description": "",
+  "engines": {
+    "node": "v22.4.1"
+  },
+  "type": "module"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@thinktapper/user-management-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "user-management-app": "./ui/index.js"
+  },
+  "scripts": {
+    "web": "npx browser-sync './' ui/",
+    "cli": "node ui/index.js",
+    "dev": "node --inspect --watch ui/index.js",
+    "test": "node  --experimental-test-coverage --test test/*.test.js",
+    "test:dev": "node --inspect --watch --test test/*.test.js"
+  },
+  "keywords": [],
+  "author": "thinktapper",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": "v22.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.3"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "4.11"
+  }
+}
